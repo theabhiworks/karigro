@@ -4,8 +4,8 @@ Karigro is a full-stack web application that connects customers with nearby skil
 
 ## 🌐 Live Demo
 
-- **Live Website:** `https://your-vercel-url.vercel.app`
-- **GitHub Repository:** `https://github.com/yourusername/karigro`
+- **Live Website:** `https://karigro.vercel.app/`
+- **GitHub Repository:** `https://github.com/theabhiworks/karigro`
 
 > Replace the links above with your actual Vercel and GitHub URLs.
 
