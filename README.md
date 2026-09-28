@@ -7,8 +7,6 @@ Karigro is a full-stack web application that connects customers with nearby skil
 - **Live Website:** `https://karigro.vercel.app/`
 - **GitHub Repository:** `https://github.com/theabhiworks/karigro`
 
-> Replace the links above with your actual Vercel and GitHub URLs.
-
 ---
 
 ## ✨ Features
@@ -43,8 +41,6 @@ Customer → Book Worker → Worker Accepts → Worker Arrives → Job Completed
 ---
 
 ## 📸 Screenshots
-
-> Add screenshots after uploading them to GitHub.
 
 | Landing Page | Worker Dashboard |
 |--------------|------------------|
