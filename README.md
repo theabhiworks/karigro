@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Karigro – On-Demand Skilled Worker Booking Platform
 
-## Getting Started
+Karigro is a full-stack web application that connects customers with nearby skilled professionals such as plumbers, electricians, carpenters, mechanics, and AC repair technicians. Inspired by platforms like **Rapido** and **Zepto**, Karigro focuses on **instant service booking**, where workers are expected to reach the customer's location within **30 minutes**.
 
-First, run the development server:
+## 🌐 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Live Website:** `https://your-vercel-url.vercel.app`
+- **GitHub Repository:** `https://github.com/yourusername/karigro`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Replace the links above with your actual Vercel and GitHub URLs.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+### Customer Features
 
-To learn more about Next.js, take a look at the following resources:
+- 🔐 Secure Registration & Login
+- 👤 Editable Customer Profile
+- 🔍 Search nearby professionals
+- 📍 Location-based instant booking
+- ⚡ 30-minute on-demand service requests
+- 📋 Track request status
+- ❌ Cancel pending requests
+- ⭐ Rate and review completed services
+- 🔔 Real-time notifications
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Worker Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🔐 Secure Registration & Login
+- 👨‍🔧 Professional Profile Management
+- 🛠 Manage offered services
+- 📥 Receive booking requests instantly
+- ✅ Accept or Decline requests
+- ✔ Mark jobs as completed
+- ⭐ Automatic rating updates
+- 📊 Dashboard with real-time statistics
 
-## Deploy on Vercel
+### Smart Workflow
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Customer → Book Worker → Worker Accepts → Worker Arrives → Job Completed → Customer Reviews
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📸 Screenshots
+
+> Add screenshots after uploading them to GitHub.
+
+| Landing Page | Worker Dashboard |
+|--------------|------------------|
+| ![Landing](screenshots/landing.png) | ![Worker](screenshots/worker-dashboard.png) |
+
+| Customer Dashboard | Booking |
+|--------------------|---------|
+| ![Customer](screenshots/customer-dashboard.png) | ![Booking](screenshots/booking.png) |
+
+---
+
+## 🏗 Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Frontend | Next.js 15 |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Database | Neon PostgreSQL |
+| ORM | Prisma |
+| Authentication | JWT + Cookies |
+| Icons | Lucide React |
+| Deployment | Vercel |
+
+---
+
+## 📂 Project Structure
+
+```text
+app/
+├── api/
+│   ├── auth/
+│   ├── notifications/
+│   ├── profile/
+│   ├── requests/
+│   ├── reviews/
+│   ├── worker/
+│   └── workers/
+├── dashboard/
+│   ├── customer/
+│   └── worker/
+├── components/
+└── page.tsx
+
+prisma/
+├── schema.prisma
+└── migrations/
